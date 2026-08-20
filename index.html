@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidrio y Aluminio — Barandales, Techos, Ventanas y Fachadas de Vidrio y Aluminio</title>
+  <meta name="description" content="Vidrio y Aluminio: diseño e instalación de barandales de vidrio, techos de vidrio y policarbonato, ventanas y puertas de aluminio, canceles de baño y fachadas. Asesoría personalizada sin compromiso — cotiza por WhatsApp.">
+  <meta name="keywords" content="barandales de vidrio, techos de vidrio y policarbonato, ventanas de aluminio, puertas de aluminio, canceles de baño, fachadas de vidrio, cancelería de aluminio, vidrio templado">
+  <meta property="og:title" content="Vidrio y Aluminio — Diseño, Elegancia y Durabilidad">
+  <meta property="og:description" content="Barandales, techos, ventanas, puertas, canceles de baño y fachadas en vidrio y aluminio. Diseño a la medida, materiales de alta calidad y garantía en todos nuestros trabajos.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="imagenes/domo-alberca-curvo.jpeg">
+  <link rel="icon" type="image/svg+xml" href="imagenes/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-logo">
+    <img src="imagenes/logo.svg" alt="" class="ld-logo-img">
+    <div class="ld-ring"></div>
+  </div>
+  <div class="ld-brand">
+    <p class="ld-name">VIDRIO <em>Y ALUMINIO</em></p>
+    <p class="ld-tag">Diseño, elegancia y durabilidad</p>
+  </div>
+  <div class="ld-progress">
+    <div class="ld-track"><div class="ld-fill"></div></div>
+    <p class="ld-note">Cargando</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#" class="logo" aria-label="Vidrio y Aluminio">
+      <img src="imagenes/logo.svg" alt="Vidrio y Aluminio" class="logo-img">
+      <div class="logo-word">VIDRIO <em>Y ALUMINIO</em></div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#galeria">Proyectos</a></li>
+      <li><a href="#why">Ventajas</a></li>
+      <li><a href="#contact" class="nav-cta">Cotizar Ahora</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Nosotros</a>
+  <a href="#services">Servicios</a>
+  <a href="#galeria">Proyectos</a>
+  <a href="#why">Ventajas</a>
+  <a href="#contact">Cotizar Ahora</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" aria-label="Encabezado principal">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow">Vidrio y Aluminio · Diseño &amp; Construcción a la Medida</p>
+      <h1 class="hero-h1">
+        <span class="h1-line"><span class="h1-inner">Espacios que Inspiran,</span></span>
+        <span class="h1-line"><span class="h1-inner">Estructuras que Perduran</span></span>
+        <span class="h1-line h1-accent"><span class="h1-inner">En Vidrio y Aluminio</span></span>
+      </h1>
+      <p class="hero-typewriter" aria-label="Especialidades">
+        <span class="tw-label">Diseñamos:</span>
+        <span class="tw-text" id="twText"></span><span class="tw-cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-p">
+        Diseñamos y construimos soluciones en vidrio y aluminio para arquitectos, diseñadores de interiores y propietarios que buscan calidad, seguridad y estética en cada detalle. Asesoría personalizada, sin compromiso.
+      </p>
+      <div class="hero-btns">
+        <a href="https://wa.me/525530399499?text=Hola%2C%20me%20interesa%20cotizar%20un%20proyecto%20con%20Vidrio%20y%20Aluminio%2C%20%C2%BFme%20podr%C3%ADan%20dar%20informaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Solicitar Cotización
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#galeria" class="btn-secondary">Ver Proyectos</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Cifras clave">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="5" data-prefix="+" data-suffix="">+0</span>
+          <span class="stat-lbl">Especialidades en vidrio y aluminio</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="100" data-prefix="" data-suffix="%">0%</span>
+          <span class="stat-lbl">Garantía en cada trabajo</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">5.0 ★</span>
+          <span class="stat-lbl">Calidad garantizada</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">Sin Costo</span>
+          <span class="stat-lbl">Asesoría y cotización</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-deco" aria-hidden="true">
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+    <div class="hero-beam"></div>
+  </div>
+  <div class="hero-badge" aria-hidden="true">
+    <span class="hb-dot"></span>
+    <span class="hb-text">Diseño, elegancia y durabilidad</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Especialidades">
+  <div class="trust-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="trust-row rev">
+      <p class="trust-label">Especialistas en</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Barandales de Vidrio</span>
+        <span class="trust-chip">Techos de Vidrio y Policarbonato</span>
+        <span class="trust-chip">Ventanas de Aluminio</span>
+        <span class="trust-chip">Puertas de Aluminio</span>
+        <span class="trust-chip">Canceles de Baño</span>
+        <span class="trust-chip">Fachadas de Vidrio</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main">
+          <img
+            src="imagenes/barandal-vidrio-interior.jpeg"
+            alt="Barandal de vidrio templado instalado en interior residencial por Vidrio y Aluminio" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">100%</p>
+          <p class="a-lbl">Trabajos garantizados</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="heading heading--shine">Diseño y Construcción en Vidrio y Aluminio</h2>
+        <p>Vidrio y Aluminio es una empresa dedicada a la instalación y diseño de productos de vidrio y estructuras de aluminio, especializada en soluciones arquitectónicas y decorativas para espacios residenciales y comerciales.</p>
+        <p>Trabajamos de la mano con arquitectos, diseñadores de interiores y propietarios que buscan calidad y estética en cada proyecto. Nuestro compromiso con la excelencia y la atención al detalle nos distingue: ofrecemos un servicio personalizado, desde barandales y techos de vidrio hasta ventanas, puertas de aluminio, canceles de baño y fachadas completas.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n">+5</p>
+            <p class="a-stat-l">Especialidades</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">100%</p>
+            <p class="a-stat-l">Trabajos garantizados</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">A la medida</p>
+            <p class="a-stat-l">Diseño personalizado</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Directa</p>
+            <p class="a-stat-l">Atención sin intermediarios</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow">Lo que hacemos</p>
+      <h2 class="heading heading--shine">Soluciones en Vidrio y Aluminio para Cada Espacio</h2>
+      <p class="sub">Diseño, fabricación e instalación con materiales de alta calidad y acabados de precisión.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="svc-card rev d1">
+        <span class="svc-num" aria-hidden="true">01</span>
+        <div class="svc-icon ic-blue">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3B82C4" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 21V9l8-6 8 6v12"/>
+            <path d="M4 21h16M9 21V13h6v8"/>
+          </svg>
+        </div>
+        <h3>Barandales de Vidrio</h3>
+        <p>Barandales de vidrio templado para escaleras, terrazas y balcones: seguridad estructural con un acabado limpio y minimalista.</p>
+        <p class="svc-models">Ej. Vidrio templado 10-12 mm · Herrajes en acero inoxidable</p>
+        <div class="svc-tags">
+          <span class="tag tag-blue">Escaleras</span>
+          <span class="tag tag-blue">Terrazas</span>
+          <span class="tag tag-blue">Balcones</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d2">
+        <span class="svc-num" aria-hidden="true">02</span>
+        <div class="svc-icon ic-blue">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3B82C4" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 21V10l9-6 9 6v11"/>
+            <path d="M3 21h18M8 21v-7h8v7"/>
+            <path d="M12 4v6"/>
+          </svg>
+        </div>
+        <h3>Techos de Vidrio y Policarbonato</h3>
+        <p>Techos y domos en vidrio templado o policarbonato que llenan tus espacios de luz natural sin perder protección ni estilo.</p>
+        <p class="svc-models">Ej. Domos curvos · Tragaluces · Terrazas cubiertas</p>
+        <div class="svc-tags">
+          <span class="tag tag-blue">Domos</span>
+          <span class="tag tag-blue">Tragaluces</span>
+          <span class="tag tag-blue">Terrazas cubiertas</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d3">
+        <span class="svc-num" aria-hidden="true">03</span>
+        <div class="svc-icon ic-blue">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3B82C4" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="1.5"/>
+            <path d="M12 3v18M3 12h18"/>
+          </svg>
+        </div>
+        <h3>Ventanas y Puertas de Aluminio</h3>
+        <p>Cancelería de aluminio a la medida: ventanas, puertas corredizas y abatibles con perfiles resistentes y de bajo mantenimiento.</p>
+        <p class="svc-models">Ej. Perfiles de aluminio · Corredizas · Abatibles</p>
+        <div class="svc-tags">
+          <span class="tag tag-blue">Ventanas</span>
+          <span class="tag tag-blue">Puertas corredizas</span>
+          <span class="tag tag-blue">Cancelería</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d4">
+        <span class="svc-num" aria-hidden="true">04</span>
+        <div class="svc-icon ic-blue">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3B82C4" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 3h9l3 3v15H6z"/>
+            <path d="M12 3v18"/>
+          </svg>
+        </div>
+        <h3>Canceles de Baño</h3>
+        <p>Canceles de baño en vidrio templado, con o sin esmerilado, instalados a la medida exacta de tu espacio.</p>
+        <p class="svc-models">Ej. Vidrio templado · Esmerilado · Herrajes cromados</p>
+        <div class="svc-tags">
+          <span class="tag tag-blue">Vidrio templado</span>
+          <span class="tag tag-blue">Esmerilado</span>
+          <span class="tag tag-blue">A la medida</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d5">
+        <span class="svc-num" aria-hidden="true">05</span>
+        <div class="svc-icon ic-blue">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3B82C4" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 21V6l6-3 6 3v15"/>
+            <path d="M15 21V11l6-2v12"/>
+            <path d="M8 9v.01M8 13v.01M8 17v.01"/>
+          </svg>
+        </div>
+        <h3>Fachadas de Vidrio</h3>
+        <p>Fachadas y muros cortina en vidrio y aluminio que dan identidad arquitectónica a proyectos residenciales y comerciales.</p>
+        <p class="svc-models">Ej. Muro cortina · Fachadas panorámicas</p>
+        <div class="svc-tags">
+          <span class="tag tag-blue">Muro cortina</span>
+          <span class="tag tag-blue">Fachadas</span>
+          <span class="tag tag-blue">Comercial</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section bg-navy">
+  <div class="why-bg" aria-hidden="true"></div>
+  <canvas id="pcanvasWhy" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-img-wrap rev from-r">
+        <div class="why-img-main">
+          <img
+            src="imagenes/fachada-vidrio-panoramica.jpeg"
+            alt="Fachada panorámica de vidrio y aluminio instalada por Vidrio y Aluminio" loading="lazy">
+        </div>
+        <div class="why-img-badge">
+          <p class="wib-n">100%</p>
+          <p class="wib-l">Garantía en trabajos</p>
+        </div>
+      </div>
+      <div class="why-content rev">
+        <p class="eyebrow eyebrow--white">Por qué elegirnos</p>
+        <h2 class="heading heading--white heading--shine-dark">La Diferencia Vidrio y Aluminio</h2>
+        <p class="sub sub--white">Transformamos tus espacios con soluciones modernas, seguras y de alta calidad.</p>
+        <div class="benefit-list">
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/>
+                <path d="M9 12l2 2 4-4"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Resistencia y Seguridad</h4>
+              <p>Vidrio templado y aluminio de alta resistencia, pensados para durar y proteger tu espacio.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="5"/>
+                <path d="M12 1v3M12 20v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1 12h3M20 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Iluminación Natural</h4>
+              <p>Diseños que aprovechan la luz natural, dando amplitud y calidez a cada ambiente.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2l2.9 6.3 6.9.6-5.2 4.6 1.6 6.8L12 16.9l-6.2 3.4 1.6-6.8-5.2-4.6 6.9-.6z"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Materiales de Alta Calidad</h4>
+              <p>Trabajamos con vidrio y aluminio de primera calidad para garantizar acabados duraderos.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <div class="ben-icon ben-icon-g">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M3 17l6-6 4 4 8-8"/>
+                <path d="M14 7h7v7"/>
+              </svg>
+            </div>
+            <div>
+              <h4>Diseño a la Medida</h4>
+              <p>Cada proyecto se diseña y fabrica a la medida exacta de tu espacio, sin soluciones genéricas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section id="numbers">
+  <div class="numbers-bg" aria-hidden="true"></div>
+  <div class="numbers-ov" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow eyebrow--white">Cómo funciona</p>
+      <h2 class="heading heading--white heading--shine-dark">Cotiza tu Proyecto en 4 Pasos</h2>
+    </div>
+    <div class="numbers-grid">
+      <div class="number-item rev d1">
+        <p class="num-v">01</p>
+        <p class="num-l">Cuéntanos qué necesitas: barandales, techos, ventanas, canceles o fachadas</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v">02</p>
+        <p class="num-l">Te asesoramos sin compromiso y resolvemos tus dudas por WhatsApp</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">03</p>
+        <p class="num-l">Tomamos medidas en sitio y preparamos tu cotización a la medida</p>
+      </div>
+      <div class="number-item rev d4">
+        <p class="num-v">04</p>
+        <p class="num-l">Fabricamos e instalamos con materiales de calidad y garantía</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <canvas id="pcanvasGaleria" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Nuestros Proyectos</p>
+      <h2 class="heading heading--white heading--shine-dark">Vidrio y Aluminio en Cada Detalle</h2>
+      <p class="brands-sub">Así son los barandales, canceles, techos y fachadas que diseñamos e instalamos.</p>
+    </div>
+    <div class="brands-grid">
+      <div class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/tragaluz-vidrio-templado.jpeg" alt="Tragaluz de vidrio templado instalado en techo por Vidrio y Aluminio" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d2">
+        <div class="brand-card-inner">
+          <img src="imagenes/cancel-bano-marmol.jpeg" alt="Cancel de baño de vidrio templado sobre muro de mármol" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d3">
+        <div class="brand-card-inner">
+          <img src="imagenes/barandal-vidrio-escalera.jpeg" alt="Barandal de vidrio templado en escalera de madera" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d4">
+        <div class="brand-card-inner">
+          <img src="imagenes/cancel-bano-espejo.jpeg" alt="Cancel de baño de vidrio con puerta corrediza espejada" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/cancel-bano-marmol-amarillo.jpeg" alt="Cancel de baño de vidrio templado sobre tina con mármol" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d2">
+        <div class="brand-card-inner">
+          <img src="imagenes/barandal-terraza-vidrio.jpeg" alt="Barandal de vidrio en terraza exterior instalado por Vidrio y Aluminio" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d3">
+        <div class="brand-card-inner">
+          <img src="imagenes/cancel-bano-piso-pebble.jpeg" alt="Cancel de baño de vidrio templado con piso de piedra pebble" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d4">
+        <div class="brand-card-inner">
+          <img src="imagenes/puerta-aluminio-cristales.jpeg" alt="Puerta de aluminio con cristales instalada por Vidrio y Aluminio" loading="lazy">
+        </div>
+      </div>
+      <div class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/cancel-bano-tragaluz.jpeg" alt="Cancel de baño de vidrio templado bajo tragaluz" loading="lazy">
+        </div>
+      </div>
+    </div>
+    <p class="brands-note rev">Vidrio templado y aluminio de alta calidad, diseñados e instalados a la medida de cada proyecto.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-info rev from-l">
+        <div class="contact-info-bg" aria-hidden="true"></div>
+        <div class="contact-info-content">
+          <p class="eyebrow eyebrow--white">Contáctanos</p>
+          <h2 class="heading heading--white">Cotiza tu Próximo Proyecto</h2>
+          <p class="sub sub--white" style="margin-bottom:32px">Cuéntanos qué necesitas y te respondemos directo por WhatsApp o llamada. Asesoría personalizada, sin compromiso.</p>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.27z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">Teléfono / WhatsApp</p>
+              <p class="c-value"><a href="tel:+525530399499">55 30 39 94 99</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">WhatsApp directo</p>
+              <p class="c-value"><a href="https://wa.me/525530399499" target="_blank" rel="noopener noreferrer">+52 1 55 3039 9499</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">Cobertura</p>
+              <p class="c-value">Servicio en tu ciudad y alrededores</p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="14" rx="2"/>
+                <path d="M8 21h8M12 17v4"/>
+                <path d="M8 8l3 3 5-5"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">Asesoría</p>
+              <p class="c-value">Personalizada y sin compromiso</p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5FA8F5" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/>
+                <path d="M9 12l2 2 4-4"/>
+              </svg>
+            </div>
+            <div>
+              <p class="c-label">Garantía</p>
+              <p class="c-value">En todos nuestros trabajos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Solicitar Cotización</h3>
+          <p class="form-sub">Te respondemos a la brevedad por WhatsApp con información y asesoría personalizada.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre completo *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Su nombre completo" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono *</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="+52 55 0000 0000" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">Tipo de proyecto *</label>
+              <select class="fi" id="fs" name="tipo" required>
+                <option value="">Seleccione una opción</option>
+                <option value="Barandales de vidrio">Barandales de vidrio</option>
+                <option value="Techos de vidrio y policarbonato">Techos de vidrio y policarbonato</option>
+                <option value="Ventanas y puertas de aluminio">Ventanas y puertas de aluminio</option>
+                <option value="Canceles de baño">Canceles de baño</option>
+                <option value="Fachadas de vidrio">Fachadas de vidrio</option>
+                <option value="Otro">Otro</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Cuéntanos tu proyecto</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="3" placeholder="Medidas, ubicación, tipo de acabado u otro detalle que debamos saber..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <img src="imagenes/logo.svg" alt="Vidrio y Aluminio" class="foot-logo-img">
+          <div class="logo-word">VIDRIO <em>Y ALUMINIO</em></div>
+        </div>
+        <p class="foot-desc">Diseño e instalación de barandales, techos, ventanas, puertas de aluminio, canceles de baño y fachadas en vidrio y aluminio. Diseño a la medida y garantía en todos nuestros trabajos.</p>
+        <div class="foot-social">
+          <a href="https://wa.me/525530399499" target="_blank" rel="noopener noreferrer" aria-label="Vidrio y Aluminio en WhatsApp" class="foot-social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.79h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="foot-col-title">Servicios</p>
+        <ul class="foot-links">
+          <li><a href="#services">Barandales de Vidrio</a></li>
+          <li><a href="#services">Techos de Vidrio y Policarbonato</a></li>
+          <li><a href="#services">Ventanas y Puertas de Aluminio</a></li>
+          <li><a href="#services">Canceles de Baño</a></li>
+          <li><a href="#services">Fachadas de Vidrio</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Proyectos</p>
+        <ul class="foot-links">
+          <li><a href="#galeria">Barandales y Escaleras</a></li>
+          <li><a href="#galeria">Canceles de Baño</a></li>
+          <li><a href="#galeria">Techos y Domos</a></li>
+          <li><a href="#galeria">Ver todos los proyectos</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <ul class="foot-links">
+          <li><a href="tel:+525530399499">55 30 39 94 99</a></li>
+          <li><a href="https://wa.me/525530399499" target="_blank" rel="noopener noreferrer">WhatsApp directo</a></li>
+          <li><a href="#contact">Cotizar Ahora</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>Vidrio y Aluminio</span>. Todos los derechos reservados.</p>
+      <p>Diseño, elegancia y durabilidad</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING ACTION BUTTON -->
+<div class="fab-stack">
+  <div class="fab-item">
+    <span class="fab-tip">Escríbenos por WhatsApp</span>
+    <a href="https://wa.me/525530399499"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="fab-btn wa-btn"
+       aria-label="Contactar por WhatsApp">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
