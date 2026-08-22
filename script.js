@@ -149,6 +149,18 @@
   initParticles(document.getElementById('pcanvasWhy'), { count: 34 });
   initParticles(document.getElementById('pcanvasGaleria'), { count: 34 });
 
+  /* ===== Galería: ver más ===== */
+  const verMasBtn = document.getElementById('galeriaVerMas');
+  if (verMasBtn) {
+    verMasBtn.addEventListener('click', () => {
+      document.querySelectorAll('.brand-card--extra').forEach(card => {
+        card.classList.remove('brand-card--extra');
+        card.classList.add('in-view');
+      });
+      verMasBtn.remove();
+    });
+  }
+
   /* ===== Contact form -> WhatsApp ===== */
   const form = document.getElementById('cForm');
   if (form) {
