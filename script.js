@@ -179,7 +179,7 @@
       text += ` Mi teléfono es ${telefono}.`;
       if (mensaje) text += ` Detalles: ${mensaje}`;
 
-      const url = `https://wa.me/525530399499?text=${encodeURIComponent(text)}`;
+      const url = `https://wa.me/526141691450?text=${encodeURIComponent(text)}`;
       window.open(url, '_blank', 'noopener,noreferrer');
     });
   }
